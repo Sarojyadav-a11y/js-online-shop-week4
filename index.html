@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript Online Shop</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Online Shop</h1>
+
+        <p>
+            Items in Cart:
+            <span id="cart-count">0</span>
+        </p>
+    </header>
+
+    <main>
+
+        <section id="products-section">
+
+            <h2>Products</h2>
+
+            <div id="category-buttons">
+
+                <button type="button" data-category="All">
+                    All
+                </button>
+
+                <button type="button" data-category="Electronics">
+                    Electronics
+                </button>
+
+                <button type="button" data-category="Clothing">
+                    Clothing
+                </button>
+
+                <button type="button" data-category="Home">
+                    Home
+                </button>
+
+            </div>
+
+            <div id="product-grid"></div>
+
+            <p id="error-message" aria-live="polite"></p>
+
+        </section>
+
+    </main>
+
+    <!-- Week 4 uses app.js as an ES6 module -->
+    <script type="module" src="app.js"></script>
+
+</body>
+
+</html>
