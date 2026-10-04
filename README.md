@@ -40,10 +40,10 @@ The `app.js` file uses `try...catch...finally` to handle these errors and displa
 
 GitHub Pages URL:
 
-[Add your GitHub Pages URL here]
+https://sarojyadav-a11y.github.io/js-online-shop-week4/
 
 ## GitHub Repository
 
 GitHub Repository URL:
 
-[Add your GitHub repository URL here]
+https://github.com/Sarojyadav-a11y/js-online-shop-week4
